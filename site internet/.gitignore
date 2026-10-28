@@ -5,6 +5,3 @@ config.env
 # Fichiers système
 .DS_Store
 Thumbs.db
-
-# Brouillons personnels
-notes-brouillon.txt
