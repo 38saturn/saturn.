@@ -43,6 +43,12 @@ body {
   color: var(--couleur-texte);
 }
 
+
+section h1 {
+  width: 100%;
+  text-align: center;
+}
+
 main {
   flex: 1;                      
   width: min(100% - 2rem, var(--largeur-max));
