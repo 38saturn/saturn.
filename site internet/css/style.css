@@ -443,7 +443,7 @@ a:hover {
   gap: var(--espace);
   margin: 0;
   padding: 0;
-  padding-top: 1rem;
+  padding-top: 0rem;
   margin-top: 0;
   list-style: none;
 }
