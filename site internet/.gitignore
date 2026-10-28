@@ -1,0 +1,10 @@
+# Secrets  ne jamais les publier
+config.env
+.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Brouillons personnels
+notes-brouillon.txt
