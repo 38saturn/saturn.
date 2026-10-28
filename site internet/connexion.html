@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - saturn.</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="entete">
+      <nav class="barre">
+        <a class="logo" href="index.html">saturn.</a>
+        <ul class="menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="boutique.html">Boutique</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="connexion.html" aria-current="page">Connexion</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="formulaire-page">
+        <h1>Connexion</h1>
+        <form class="formulaire">
+          <div class="champ">
+            <label for="identifiant">Nom d'utilisateur ou adresse e-mail</label>
+            <input type="text" id="identifiant" name="identifiant" autocomplete="username" required>
+          </div>
+          <div class="champ">
+            <label for="mot-de-passe">Mot de passe</label>
+            <input type="password" id="mot-de-passe" name="mot-de-passe" autocomplete="current-password" required>
+          </div>
+          <button class="bouton" type="submit">Se connecter</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="pied">
+      <p>
+        <a href="mailto:lino.tisserand@example.com">&copy; 2026 - TISSERAND Lino.</a>
+      </p>
+    </footer>
+  </body>
+</html>
